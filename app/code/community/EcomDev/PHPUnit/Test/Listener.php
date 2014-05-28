@@ -263,7 +263,6 @@ class EcomDev_PHPUnit_Test_Listener implements PHPUnit_Framework_TestListener
         // No action is required
     }
 
-
     /**
      * Risky test.
      *
@@ -280,6 +279,7 @@ class EcomDev_PHPUnit_Test_Listener implements PHPUnit_Framework_TestListener
             'time' => $time,
             'listener' => $this
         ));
-        // No action required
+        // No action is required
     }
+
 }
